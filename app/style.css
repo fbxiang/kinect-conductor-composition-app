@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.paper-container {
+  overflow-x: scroll;
+  overflow-y: scroll;
+  height: 100vh;
+
+}
+
+editor {
+  background-color: #ccc;
+  top: 0;
+  right: 0;
+  min-width: 300px;
+  height: 100vh;
+  padding: 0 10px;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+editor > div > span {
+  display: inline-block;
+  width: 80px;
+  padding: 5px 10px 5px 0;
+}
